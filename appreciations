@@ -1,0 +1,17 @@
+fr = int(input("Saisissez la note de français :"))
+geo = int(input("Saisissez la note de géographie :"))
+math = int(input("Saisissez la note de mathématiques :"))
+info = int(input("Saisissez la note d'informatique :"))
+
+moy = (fr + geo + math + info) / 4
+
+if moy >= 16 :
+    print("Très bien")
+elif moy >= 12 :
+    print("Bien")
+elif moy >= 8 :
+    print("Assez bien")
+elif moy >= 4 :
+    print("Insuffisant")
+else :
+    print("Nul")
